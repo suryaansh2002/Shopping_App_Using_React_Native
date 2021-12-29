@@ -8,8 +8,12 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/vector-icons": "^12.0.5",
+    "@react-navigation/native": "^6.0.6",
     "expo": "^41.0.0",
     "expo-cli": "^5.0.3",
+    "expo-font": "^10.0.4",
+    "expo-modules-core": "^0.6.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
