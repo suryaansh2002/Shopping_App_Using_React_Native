@@ -33,7 +33,7 @@ ProductsOverviewScreen.navigationOptions = navData=> {
   return{
     headerTitle: 'All Products',
     headerRight:<HeaderButtons HeaderButtonComponent={HeaderButton} >
-      <Item title='Cart'iconName='md-cart' onPress={()=>{
+      <Item title='Cart' iconName='md-cart' onPress={()=>{
         navData.navigation.navigate('Cart');
       }}/>
     </HeaderButtons>
